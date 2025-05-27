@@ -6,6 +6,8 @@ module avaje.techempower {
   requires java.sql;
   requires org.postgresql.jdbc;
   requires com.zaxxer.hikari;
+  requires io.ebean.core;
+  requires io.ebean.querybean;
   // template engine
   requires io.jstach.jstachio;
   /// Configuration
